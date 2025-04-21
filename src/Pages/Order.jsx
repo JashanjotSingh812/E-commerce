@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { ShopContext } from '../Context/ShopContext'
 import Title from '../components/Title';
-import { assets } from '../assets/frontend_assets/assets';
+import { assets } from '../assets/assets';
 
 const Order = () => {
 
@@ -12,7 +12,7 @@ const Order = () => {
       <div className='text-2xl'>
          <Title text1={'MY'} text2={'ORDERS'}/>
       </div>
-      
+        
       <div>
         {
           products.slice(1,4).map((item,index)=>(
